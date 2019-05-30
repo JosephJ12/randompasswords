@@ -8,7 +8,7 @@ with open("README.rst", "r") as f:
 #calling setup()
 setuptools.setup(
     name="randompasswords",
-    version="1.0.0",
+    version="2.0.0",
     description="Takes user input and generates random passwords",
     long_description=long_description,
     long_description_content_type="text/x-rst",
@@ -23,5 +23,5 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(),
     include_package_data=True,
-    install_requires=["Faker",],
+    #install_requires=["wxPython",],
 )

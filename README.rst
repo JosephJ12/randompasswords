@@ -24,6 +24,14 @@ Or use pip to install randompasswords directly
 
 Usage
 -----
+After downloading package
+
+::
+
+    from randompasswords import __main__
+
+    __main__.main()
+
 Run __main__.py and follow instructions on GUI window
 
 Acknowledgment

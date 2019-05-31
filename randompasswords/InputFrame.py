@@ -1,6 +1,5 @@
 from randompasswords import InputValidator
 from randompasswords.passwordgenerator import *
-from faker import Faker
 import wx
 
 class InputFrame(wx.Frame):
